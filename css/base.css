@@ -521,3 +521,44 @@ input, textarea {
 	justify-items: center;
 	align-items: center;
 }
+
+/* ABOUT US PAGE */
+
+.aboutsec {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	padding-left: 20px;
+
+}
+.aboutsec h2 {
+	color:#445ba9;
+}
+
+.hist-info {
+	display: flex;
+	flex-direction: column;
+}
+
+.hist-1 {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding-left: 20px;
+	
+}
+
+.map{
+	padding-left: 20px;
+	padding-bottom: 10px;
+
+}
+.hist-1 h2, h3 {
+	padding-top: 20px;
+	align-self: center;
+}
+.hist-1 p {
+	text-align: left;
+	
+}
