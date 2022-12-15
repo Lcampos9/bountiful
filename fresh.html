@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Page</title>
+    <link rel="stylesheet" href="/Bountiful/css/normalize.css"> 
+    <link rel="stylesheet" href="/bountiful/css/base.css">
+    <link rel="stylesheet" href="/bountiful/css/medium.css">
+    <link rel="stylesheet" href="/bountiful/css/large.css">
+    <link rel="shortcut icon" href="favicon.ico"> 
+</head>
+<body>
+    
+        
+        <header>
+            <picture class="logo">
+                <a href=""><img src="/Bountiful/images/favicon.webp" width="80" alt="Logo"></a>
+             </picture>
+             <div class="title">
+                <h1>Bountiful Foods</h1>
+             </div>
+             <div class="social">
+                <a href="https://www.facebook.com/"><img class="fb" src="images/facebook.png" alt="facebook"></a> 
+               <a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="linkedin"></a>
+               <a href="https://www.instagram.com/"><img src="images/instagram1.png" alt="instagram"></a>
+             </div> 
+             <nav class="nav">
+                <ul class="navigation">
+                   <li><a class="menu" href="#"></a></li>
+                   <li><a class="menu1" href="/Bountiful/index.html">Home</a></li>
+                   <li><a class="menu1" href="/Bountiful/fresh.html">Fresh Page</a></li>
+                   <li><a class="menu1" href="/Bountiful/about.html">About Us</a></li>
+                  
+                </ul>
+             </nav>
+        </header>
+        <main class="mainfresh">
+           
+            <section class="form1">
+                <form action="thankyou.html" method="get" id="my-form">
+                    <fieldset>
+                        <legend>Applicant Information</legend>
+                        <label class="top"> First Name* <input type="text" name="fname" id="fname" required></label>
+                        <label class="top"> Email* <input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
+                        <label class="top"> Phone <input type="tel" name="phone" id="phone"></label>
+                       <label class="top">Fruit 1
+                           <select name="subject" id="fruit1">
+                             <option value="">Select a fruit</option>   
+                           </select>
+                       </label>
+
+                       <label class="top">Fruit 2
+                        <select name="subject" id="fruit2">
+                            <option value="">Select a fruit</option>  
+                        </select>
+                    </label>
+
+                    <label class="top">Fruit 3
+                        <select name="subject" id="fruit3">
+                            <option value="">Select a fruit</option>  
+                        </select>
+                    </label>
+                       <label class="top" >Special Instructions:
+                    <textarea name="describebusiness" rows="4" cols="50" id="descr"></textarea> </label>
+
+                   </fieldset>
+
+                  <input value="See Results" class="submitBtn" id="formbuttom">
+               </form>  
+            </section>
+            <section class="fresh-2">
+                <div id="displayform">
+                    <p id="storeid1"></p>
+                    <p id="storeid2"></p>
+                    <p id="storeid3"></p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="ft-about">
+                <h3>About Us</h3>
+                <picture class="logo">
+                    <a href=""><img src="/Bountiful/images/favicon.webp" width="80" alt="Logo"></a>
+                 </picture>
+                <p class="p-footer">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod</p>
+            </div>
+            <div class="ft-resources">
+                <h3>Resources</h3>
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+           </div>
+           <div class="ft-contact">
+                    <h3>Contact Us</h3>
+                   <p>
+                        <strong><span>Address:</span></strong>
+                        Plot PL 10800, Du Road
+                    </p>
+                    <p> 
+                       <strong><span>Call Us:</span></strong>
+                        +505 82749498
+                    </p>
+                    <p>
+                       <strong> <span>Mail Us</span></strong>
+                        contact@bountifulfoods.com
+                    </p>
+                </div>
+            <div class="ft-social">
+            <h3>Connect</h3>
+            <div class="social">
+                <a href="https://www.facebook.com/"><img class="fb" src="images/facebook.png" alt="facebook"></a> 
+               <a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="linkedin"></a>
+               <a href="https://www.instagram.com/"><img src="images/instagram1.png" alt="instagram"></a>
+             </div> 
+            </div>
+            <div class="footer-copyright">
+                <p class="yearchamber">© <span id="year"></span> Bountiful Foods</p>
+                <a href="https://www.facebook.com">Contact</a>
+                <p id="yellow">Last Modified: <span id="lastmod"></span> </p>
+            </div>
+        </footer>
+
+    </div>
+    <script src="/bountiful/js/nav.js"></script>
+    <script src="/Bountiful/js/select.js"></script>
+    <script src="/Bountiful/js/dis.js"></script>
+</body>
+</html>
